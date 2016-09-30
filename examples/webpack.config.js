@@ -33,6 +33,7 @@ module.exports = {
         description: 'A better default template for html-webpack-plugin.'
       },
       mobile: true,
+      modernizr: true,
       links: [
         'https://fonts.googleapis.com/css?family=Roboto',
         {

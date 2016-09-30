@@ -49,6 +49,7 @@ And some other optional:
     respectively.
 - `meta`: Object that defines the meta tags. Default value: `{}`.
 - `mobile`: Sets appropriate meta tag for page scaling.
+- `modernizr`: When true, will load Modernizr from a CDN. This option simplifies the `<html>` element's definition.
 - `scripts`: Array of external script imports to include on page. Default value: `[]`.
   - If an array element is a string, the value is assigned to the `src` attribute and the `type` attribute is set to
     `"text/javascript"`;
@@ -87,6 +88,7 @@ Here's an example webpack config illustrating how to use these options in your `
         description: 'A better default template for html-webpack-plugin.'
       },
       mobile: true,
+      modernizr: true,
       links: [
         'https://fonts.googleapis.com/css?family=Roboto',
         {
